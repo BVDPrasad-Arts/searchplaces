@@ -1,0 +1,22 @@
+/* src/components/Table.css */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+  }
+  
+  .table th {
+    font-weight: 700;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
